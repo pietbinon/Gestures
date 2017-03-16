@@ -1,26 +1,173 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ysD-Oe-xt4">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Edge Pan-->
+        <scene sceneID="FlA-CZ-7gH">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="tG6-GP-U8N" customClass="EdgePanViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="6bN-RN-NP2"/>
+                        <viewControllerLayoutGuide type="bottom" id="mWK-du-L1x"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="cGa-4R-z1V">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="1" green="0.4859340372" blue="0.18013100100000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Edge Pan" image="item6" id="saX-30-t0t"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CDT-g5-hhK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-665" y="-541"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="NWH-6j-b9f">
+            <objects>
+                <tabBarController id="ysD-Oe-xt4" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="DAE-0D-NtI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="b3v-OU-pCU" kind="relationship" relationship="viewControllers" id="rLW-in-mkD"/>
+                        <segue destination="eTZ-XF-1fv" kind="relationship" relationship="viewControllers" id="slz-2t-dRM"/>
+                        <segue destination="mga-l5-hR2" kind="relationship" relationship="viewControllers" id="fdx-TW-blq"/>
+                        <segue destination="VCD-5s-lmK" kind="relationship" relationship="viewControllers" id="adD-aN-ah7"/>
+                        <segue destination="JcX-1m-gIF" kind="relationship" relationship="viewControllers" id="AQe-od-0eq"/>
+                        <segue destination="tG6-GP-U8N" kind="relationship" relationship="viewControllers" id="9sT-Md-FeM"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="11Q-z5-GeN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-344" y="282"/>
+        </scene>
+        <!--Rotation-->
+        <scene sceneID="61X-ea-yLj">
+            <objects>
+                <viewController id="JcX-1m-gIF" customClass="RotationViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ayF-xe-7eb"/>
+                        <viewControllerLayoutGuide type="bottom" id="a6T-eV-tpJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NEK-jg-wwO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.24513623086753855" green="0.24828614320634379" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Rotation" image="item5" id="rL9-oU-UjZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UFQ-QN-pUX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1583" y="40"/>
+        </scene>
+        <!--Swipe-->
+        <scene sceneID="Hq5-z6-hlH">
+            <objects>
+                <viewController id="VCD-5s-lmK" customClass="SwipeViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="d89-VM-DbS"/>
+                        <viewControllerLayoutGuide type="bottom" id="ycp-H2-ZPX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="z0C-WS-lbG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.17012046780000001" green="1" blue="0.10858780799999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Swipe" image="item4" id="Cgh-E0-Jr3"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cwc-Ps-Ndv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1226" y="837"/>
+        </scene>
+        <!--PinchProgramatically-->
+        <scene sceneID="Bv1-ov-drU">
+            <objects>
+                <viewController id="mga-l5-hR2" customClass="PinchViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9Lq-6A-7qH"/>
+                        <viewControllerLayoutGuide type="bottom" id="3zp-Xk-st7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pWO-LA-E6k">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.53028128269999997" blue="0.79726446510000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="PinchProgramatically" image="item3" id="phD-Gf-7zh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rkC-RD-Xb7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-150" y="1138"/>
+        </scene>
+        <!--Tap-->
+        <scene sceneID="dYA-aI-R35">
+            <objects>
+                <viewController id="eTZ-XF-1fv" customClass="TapViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="grm-Cy-tXj"/>
+                        <viewControllerLayoutGuide type="bottom" id="uFh-Vp-44b"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hEA-Bs-Jwf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.94312203036265796" green="1" blue="0.74824164924908731" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Tap" image="item2" id="Ait-l4-q3s"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Iuq-0G-Xz3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="628" y="687"/>
+        </scene>
+        <!--Pan-->
+        <scene sceneID="EwU-5h-NdZ">
+            <objects>
+                <viewController id="b3v-OU-pCU" customClass="PanViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cAJ-ux-tOz"/>
+                        <viewControllerLayoutGuide type="bottom" id="pcA-Q6-WuA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wwY-j0-7gH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bnQ-Kr-ahW">
+                                <rect key="frame" x="81" y="84" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.23871495570000001" blue="0.24310573150000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="gxx-zT-zX0" appends="YES" id="gl3-vU-Kig"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Pan" image="item1" id="3FK-38-RI4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4iH-se-b9a" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="gxx-zT-zX0">
+                    <connections>
+                        <action selector="redViewPanned:" destination="b3v-OU-pCU" id="Ia3-Xh-7uP"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="497" y="-225"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="item1" width="30" height="30"/>
+        <image name="item2" width="30" height="28"/>
+        <image name="item3" width="30" height="28"/>
+        <image name="item4" width="30" height="30"/>
+        <image name="item5" width="30" height="30"/>
+        <image name="item6" width="30" height="30"/>
+    </resources>
 </document>

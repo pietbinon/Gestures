@@ -9,10 +9,15 @@
 /* Begin PBXBuildFile section */
 		77E6DE051E7AB76B0004951E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E6DE041E7AB76B0004951E /* main.m */; };
 		77E6DE081E7AB76B0004951E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E6DE071E7AB76B0004951E /* AppDelegate.m */; };
-		77E6DE0B1E7AB76B0004951E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E6DE0A1E7AB76B0004951E /* ViewController.m */; };
 		77E6DE0E1E7AB76B0004951E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77E6DE0C1E7AB76B0004951E /* Main.storyboard */; };
 		77E6DE101E7AB76B0004951E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77E6DE0F1E7AB76B0004951E /* Assets.xcassets */; };
 		77E6DE131E7AB76B0004951E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77E6DE111E7AB76B0004951E /* LaunchScreen.storyboard */; };
+		77E6DE1C1E7ABB0C0004951E /* PanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E6DE1B1E7ABB0C0004951E /* PanViewController.m */; };
+		77E6DE1F1E7ABB260004951E /* TapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E6DE1E1E7ABB260004951E /* TapViewController.m */; };
+		77E6DE221E7AE5310004951E /* PinchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E6DE211E7AE5310004951E /* PinchViewController.m */; };
+		77E6DE251E7AF4BF0004951E /* SwipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E6DE241E7AF4BF0004951E /* SwipeViewController.m */; };
+		77E6DE281E7B051A0004951E /* RotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E6DE271E7B051A0004951E /* RotationViewController.m */; };
+		77E6DE2B1E7B0D2E0004951E /* EdgePanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E6DE2A1E7B0D2E0004951E /* EdgePanViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +25,22 @@
 		77E6DE041E7AB76B0004951E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		77E6DE061E7AB76B0004951E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		77E6DE071E7AB76B0004951E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		77E6DE091E7AB76B0004951E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		77E6DE0A1E7AB76B0004951E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		77E6DE0D1E7AB76B0004951E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		77E6DE0F1E7AB76B0004951E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77E6DE121E7AB76B0004951E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77E6DE141E7AB76B0004951E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77E6DE1A1E7ABB0C0004951E /* PanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanViewController.h; sourceTree = "<group>"; };
+		77E6DE1B1E7ABB0C0004951E /* PanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanViewController.m; sourceTree = "<group>"; };
+		77E6DE1D1E7ABB260004951E /* TapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapViewController.h; sourceTree = "<group>"; };
+		77E6DE1E1E7ABB260004951E /* TapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapViewController.m; sourceTree = "<group>"; };
+		77E6DE201E7AE5310004951E /* PinchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinchViewController.h; sourceTree = "<group>"; };
+		77E6DE211E7AE5310004951E /* PinchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinchViewController.m; sourceTree = "<group>"; };
+		77E6DE231E7AF4BF0004951E /* SwipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeViewController.h; sourceTree = "<group>"; };
+		77E6DE241E7AF4BF0004951E /* SwipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeViewController.m; sourceTree = "<group>"; };
+		77E6DE261E7B051A0004951E /* RotationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotationViewController.h; sourceTree = "<group>"; };
+		77E6DE271E7B051A0004951E /* RotationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotationViewController.m; sourceTree = "<group>"; };
+		77E6DE291E7B0D2E0004951E /* EdgePanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EdgePanViewController.h; sourceTree = "<group>"; };
+		77E6DE2A1E7B0D2E0004951E /* EdgePanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EdgePanViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +73,19 @@
 		77E6DE021E7AB76B0004951E /* Gestures */ = {
 			isa = PBXGroup;
 			children = (
-				77E6DE061E7AB76B0004951E /* AppDelegate.h */,
-				77E6DE071E7AB76B0004951E /* AppDelegate.m */,
-				77E6DE091E7AB76B0004951E /* ViewController.h */,
-				77E6DE0A1E7AB76B0004951E /* ViewController.m */,
+				77E6DE1A1E7ABB0C0004951E /* PanViewController.h */,
+				77E6DE1B1E7ABB0C0004951E /* PanViewController.m */,
+				77E6DE1D1E7ABB260004951E /* TapViewController.h */,
+				77E6DE1E1E7ABB260004951E /* TapViewController.m */,
+				77E6DE201E7AE5310004951E /* PinchViewController.h */,
+				77E6DE211E7AE5310004951E /* PinchViewController.m */,
+				77E6DE231E7AF4BF0004951E /* SwipeViewController.h */,
+				77E6DE241E7AF4BF0004951E /* SwipeViewController.m */,
+				77E6DE261E7B051A0004951E /* RotationViewController.h */,
+				77E6DE271E7B051A0004951E /* RotationViewController.m */,
+				77E6DE291E7B0D2E0004951E /* EdgePanViewController.h */,
+				77E6DE2A1E7B0D2E0004951E /* EdgePanViewController.m */,
 				77E6DE0C1E7AB76B0004951E /* Main.storyboard */,
-				77E6DE0F1E7AB76B0004951E /* Assets.xcassets */,
-				77E6DE111E7AB76B0004951E /* LaunchScreen.storyboard */,
-				77E6DE141E7AB76B0004951E /* Info.plist */,
 				77E6DE031E7AB76B0004951E /* Supporting Files */,
 			);
 			path = Gestures;
@@ -74,6 +94,11 @@
 		77E6DE031E7AB76B0004951E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				77E6DE0F1E7AB76B0004951E /* Assets.xcassets */,
+				77E6DE111E7AB76B0004951E /* LaunchScreen.storyboard */,
+				77E6DE141E7AB76B0004951E /* Info.plist */,
+				77E6DE061E7AB76B0004951E /* AppDelegate.h */,
+				77E6DE071E7AB76B0004951E /* AppDelegate.m */,
 				77E6DE041E7AB76B0004951E /* main.m */,
 			);
 			name = "Supporting Files";
@@ -150,8 +175,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77E6DE0B1E7AB76B0004951E /* ViewController.m in Sources */,
+				77E6DE1C1E7ABB0C0004951E /* PanViewController.m in Sources */,
 				77E6DE081E7AB76B0004951E /* AppDelegate.m in Sources */,
+				77E6DE221E7AE5310004951E /* PinchViewController.m in Sources */,
+				77E6DE281E7B051A0004951E /* RotationViewController.m in Sources */,
+				77E6DE251E7AF4BF0004951E /* SwipeViewController.m in Sources */,
+				77E6DE2B1E7B0D2E0004951E /* EdgePanViewController.m in Sources */,
+				77E6DE1F1E7ABB260004951E /* TapViewController.m in Sources */,
 				77E6DE051E7AB76B0004951E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
